@@ -1,4 +1,14 @@
 <resources>
     <string name="app_name">Project2</string>
-
+    <string name="Rule">
+        This is Janken\'s game.
+        \n\n
+         In this app you have to win five times before the enemy to win the enemy.
+        \n\n
+         If the enemy wins five times, it is your defeat.
+        \n\n
+         So let\'s get started.
+        </string>
+    <string name="rule">Rule</string>
+    <string name="textview">TextView</string>
 </resources>
