@@ -5,49 +5,31 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#81CFF3"
-    tools:context=".RuleActivity">
+    tools:context=".WinActivity">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/rule"
-        android:textSize="25dp"
+        android:text="Your victory"
+        android:textColor="#F81504"
+        android:textSize="75dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.466"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.06" />
+        app:layout_constraintVertical_bias="0.341" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="Button2"
-        android:text="Start"
+        android:text="Go back"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.931" />
-
-    <ScrollView
-        android:layout_width="409dp"
-        android:layout_height="490dp"
-        app:layout_constraintBottom_toTopOf="@+id/button4"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.442">
-
-        <TextView
-            android:id="@+id/Rule"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/Rule"
-            android:textSize="37dp" />
-    </ScrollView>
-
+        app:layout_constraintVertical_bias="0.777" />
 </androidx.constraintlayout.widget.ConstraintLayout>
