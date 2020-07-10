@@ -52,6 +52,10 @@ public class MainActivity extends AppCompatActivity {
             result.setText("You win.");
             playerpoint = playerpoint + 1;
             player2.setText("Your point is"+playerpoint);
+            if (playerpoint >=5){
+                Intent intent = new Intent(this,WinActivity.class);
+                startActivity(intent);
+            }
 
         }else if(number==2){
 
@@ -60,6 +64,10 @@ public class MainActivity extends AppCompatActivity {
             result.setText("you defeat.");
             cpupoint = cpupoint + 1;
             cpu2.setText("The enemy's point is"+cpupoint);
+            if (cpupoint >= 5){
+                Intent intent = new Intent(this,DefeatActivity.class);
+                startActivity(intent);
+            }
 
         }
     }
@@ -77,6 +85,10 @@ public class MainActivity extends AppCompatActivity {
             result.setText("you defeat.");
             cpupoint = cpupoint + 1;
             cpu2.setText("The enemy's point is"+cpupoint);
+            if (cpupoint >= 5){
+                Intent intent = new Intent(this,DefeatActivity.class);
+                startActivity(intent);
+            }
 
         }else if(number==1){
 
@@ -91,6 +103,10 @@ public class MainActivity extends AppCompatActivity {
             result.setText("You win.");
             playerpoint = playerpoint + 1;
             player2.setText("Your point is"+playerpoint);
+            if (playerpoint >=5){
+                Intent intent = new Intent(this,WinActivity.class);
+                startActivity(intent);
+            }
 
         }
     }
@@ -108,6 +124,10 @@ public class MainActivity extends AppCompatActivity {
             result.setText("You win.");
             playerpoint = playerpoint + 1;
             player2.setText("Your point is"+playerpoint);
+            if (playerpoint >=5){
+                Intent intent = new Intent(this,WinActivity.class);
+                startActivity(intent);
+            }
 
         }else if(number==1){
 
@@ -116,6 +136,10 @@ public class MainActivity extends AppCompatActivity {
             result.setText("you defeat.");
             cpupoint = cpupoint + 1;
             cpu2.setText("The enemy's point is"+cpupoint);
+            if (cpupoint >= 5){
+                Intent intent = new Intent(this,DefeatActivity.class);
+                startActivity(intent);
+            }
 
         }else if(number==2){
 
@@ -125,4 +149,5 @@ public class MainActivity extends AppCompatActivity {
 
         }
     }
+
 }
