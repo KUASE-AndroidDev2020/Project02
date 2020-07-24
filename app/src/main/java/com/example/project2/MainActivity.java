@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
 
             //cpu.setText("The enemy's hand is PAPER.");
             cpu.setImageResource(R.drawable.paa2);
-            result.setText("you defeat.");
+            result.setText("You lose.");
             cpupoint = cpupoint + 1;
             cpu2.setText("The enemy's point is"+cpupoint);
             if (cpupoint >= 5){
@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
 
             //cpu.setText("The enemy's hand is ROCK.");
             cpu.setImageResource(R.drawable.goo2);
-            result.setText("you defeat.");
+            result.setText("You lose.");
             cpupoint = cpupoint + 1;
             cpu2.setText("The enemy's point is"+cpupoint);
             if (cpupoint >= 5){
@@ -133,7 +133,7 @@ public class MainActivity extends AppCompatActivity {
 
             //cpu.setText("The enemy's hand is SCISSOR.");
             cpu.setImageResource(R.drawable.choki2);
-            result.setText("you defeat.");
+            result.setText("You lose.");
             cpupoint = cpupoint + 1;
             cpu2.setText("The enemy's point is"+cpupoint);
             if (cpupoint >= 5){
